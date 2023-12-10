@@ -474,12 +474,15 @@ color: #F4F4FD;
     background-color: #31d0aa;
 }
 .footer-list-icon {
-    margin-left: 16px;
+
 
     display: inline-flex;
     align-items: center;
     width: 24px;
     height: 24px;  
+}
+.footer-list-icon-btm{
+    margin-left: 16px;
 }
 .footer-class-logo {
     margin-right: 120px;
