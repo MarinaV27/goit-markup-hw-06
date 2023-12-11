@@ -44,11 +44,22 @@ ul {
     overflow: hidden;
 }
 .container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
+    width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-left: auto;
 }
-
-
-
+@media screen (min-width: 768px) {
+    .container {
+        max-width: 736px;
+    }
+    
+}
+@media screen (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+    }
+    
+}
 
