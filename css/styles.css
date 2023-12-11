@@ -50,6 +50,41 @@ ul {
     margin-left: auto;
     margin-left: auto;
 }
+.menu {
+    display: none;
+}
+.logo {
+    font-family: "Raleway", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
+}
+.logo-dark{
+    color: #2E2F42;
+}
+.mobile-menu-open-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin-left: auto;
+}
+.page-header-containar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
 @media screen (min-width: 768px) {
     .container {
         max-width: 736px;
