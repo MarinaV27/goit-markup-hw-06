@@ -44,7 +44,7 @@ ul {
     overflow: hidden;
 }
 .container {
-    width: 320px;
+    max-width: 320px;
     padding-left: 16px;
     padding-right: 16px;
     margin-left: auto;
@@ -71,13 +71,25 @@ ul {
     padding: 0;
     margin-left: auto;
 }
+.page-header {
+    padding-top: 17.5px;
+    padding-bottom: 17.5px;
+}
 .page-header-containar {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-
+.mobile-menu-wropper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999999;
+    width: 100%;
+    height: 100%;
+    background-color:#FFF;
+}
 
 
 
