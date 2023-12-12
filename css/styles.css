@@ -95,16 +95,16 @@ ul {
     border: none;
     padding: 0;
     line-height: 0;
-    fill: #2E2F42;
     position: absolute;
-    top: 0;
-    height: 0;
+    top: 24px;
+    right: 16px;
  }
 .mobile-menu-clse-btn-icon{
-    fill: #2E2F42;
 }
 
-
+.mobile-menu-container {
+    position: relative;
+}
 
 
 
