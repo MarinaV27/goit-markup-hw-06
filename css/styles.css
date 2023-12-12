@@ -90,8 +90,19 @@ ul {
     height: 100%;
     background-color:#FFF;
 }
-
-
+ .mobile-menu-close-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+    fill: #2E2F42;
+    position: absolute;
+    top: 0;
+    height: 0;
+ }
+.mobile-menu-clse-btn-icon{
+    fill: #2E2F42;
+}
 
 
 
