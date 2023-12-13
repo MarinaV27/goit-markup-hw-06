@@ -74,12 +74,13 @@ ul {
     background-color: transparent;
     border: none;
     padding: 0;
+    line-height: 0;
     /* margin-left: auto;  */
 }
-  /* .page-header {
+  .page-header {
     padding-top: 17.5px;
     padding-bottom: 17.5px;
-}  */
+} 
  .page-header-containar {
     display: flex;
     align-items: center;
@@ -119,3 +120,32 @@ ul {
 
 }
 
+@media screen and (min-width: 768px){
+    .mobile-menu-open-btn{
+        display: none;
+    }
+    .page-header-containar{
+        display: flex;
+    }
+    .page-nav{
+        display: flex;
+    }
+
+    .container{
+        max-width: 768px;
+    }
+
+    .menu{
+        display: flex;
+    }
+
+    .page-address-menu{
+    display:flex;
+    flex-direction: column;
+    
+}
+.page-address{
+    display: flex;
+    
+}
+}
