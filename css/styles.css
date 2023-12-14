@@ -292,6 +292,30 @@ text-align: center;
         max-width: 768px;
     }
 
+/*.accomplishments {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+   
+}*/
+.visually-hidden-list {
+    display: flex;
+}
+.accomplishments {
+  display: flex;  
+flex-direction: row;
+flex-wrap: wrap;
+column-gap: 24px;
+row-gap: 72px;
+width: 738px;
+}
+
+/*.solutions-text {
+    display: flex;
+    gap: 24px;
+    flex-basis: calc((100%-24px)/2);
+}*/
+
 }
 
 
