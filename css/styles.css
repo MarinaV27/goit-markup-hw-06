@@ -66,7 +66,9 @@ ul {
 /*---------------------HEADER------------------------*/
 @media screen and (max-width: 767px) {
     
-    
+    .container{
+        max-width: 320px;
+    }
    
     .menu {
         display: none;
@@ -244,9 +246,59 @@ ul {
       
     }
 
+}
+
+/*==========================HERO==========================*/
 
 
 
+/*========================SOLUTION========================*/
 
+@media screen and (min-width: 320px) {
+
+    .container{
+        max-width: 320px;
+        padding: 96px 16px;
+    }
+
+.solutions-icon {
+    display: none;
+}
+
+.title-three {
+    color: #2E2F42;
+text-align: center;
+
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11; /* 111.111% */
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+.descrition {
+    font-weight: 500;
+    line-height: 1.5; /* 150% */
+    margin-bottom: 72px;
+}
+
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .container{
+        max-width: 768px;
+    }
+
+}
+
+
+@media screen and (min-width: 1158px) {
+
+    .container{
+        max-width: 1158px;
+    }
 
 }
