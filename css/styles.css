@@ -64,6 +64,7 @@ ul {
     color: #2E2F42;
 }
 /*---------------------HEADER------------------------*/
+/*===============Mobil HEADER===============*/
 @media screen and (max-width: 767px) {
     
     .container{
@@ -129,7 +130,7 @@ ul {
 }
 
 }
-
+/*=============== Tablet HEADER ===============*/
 @media screen and (min-width: 768px){
     .container{
         max-width: 768px;
@@ -211,6 +212,7 @@ ul {
 
 }
 }
+/*=============== Desktop HEADER ===============*/
 @media screen and (min-width: 1158px) {
 
     .container{
@@ -249,6 +251,9 @@ ul {
 }
 
 /*==========================HERO==========================*/
+
+/*===============Mobil HERO===============*/
+
 @media screen and (max-width: 767px) {
 
     .container{
@@ -264,10 +269,6 @@ ul {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tel-bg.jpg);
 margin-bottom: 96px;
 }
-
-
-
-
 
 .main-title {
     text-align: center;
@@ -297,13 +298,16 @@ margin: 0 auto;
 border: 0;
 
 }
-
-
 }
+/*===============Tablet HERO===============*/
+
+/*=============== Desktop HERO ===============*/
 
 
 
-/*========================SOLUTION========================*/
+
+/*======================== SOLUTION ========================*/
+/*=============== Mobil SOLUTION ===============*/
 
 @media screen and (max-width: 767px) {
 
@@ -336,7 +340,8 @@ text-align: center;
 }
 
 }
-
+/*=============== Tablet SOLUTION ===============*/
+/*=============== Desktop SOLUTION ===============*/
 
 /*@media screen and (min-width: 768px) {
 
@@ -379,7 +384,8 @@ text-align: center;
 
 }*/
 
-/*==================Our Team================*/
+/*================== Our Team ================*/
+/*=============== Mobil Our Team ===============*/
 @media screen and (max-width: 767px) {
 
     .container{
@@ -475,8 +481,12 @@ display: block;
 
 
 }
+/*=============== Tablet  Our Team ===============*/
+/*=============== Desktop Our Team ===============*/
+
 
 /*=================PORTFOLIO===============*/
+/*=============== Mobil PORTFOLIO ===============*/
 
 @media screen and (max-width: 767px) {
 
@@ -530,9 +540,13 @@ display: block;
 }
   
 }
+/*=============== Tablet  PORTFOLIO ===============*/
+
+/*=============== Desktop PORTFOLIO ===============*/
 
 
 /*===========================FUTER==============*/
+/*=============== Mobil FUTER ===============*/
 
 @media screen and (max-width: 767px) {
 
@@ -656,3 +670,8 @@ display: block;
 }
 
 
+}
+
+/*=============== Tablet  FUTER ===============*/
+
+/*=============== Desktop FUTER ===============*/
