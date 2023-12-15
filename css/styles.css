@@ -289,32 +289,19 @@ text-align: center;
 @media screen and (min-width: 768px) {
 
     .container{
-        max-width: 768px;
+        max-width: 736px;
     }
 
-/*.accomplishments {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+.accomplishments {
    
-}*/
+}
 .visually-hidden-list {
-    display: flex;
 }
 .accomplishments {
-  display: flex;  
-flex-direction: row;
-flex-wrap: wrap;
-column-gap: 24px;
-row-gap: 72px;
-width: 738px;
 }
 
-/*.solutions-text {
-    display: flex;
-    gap: 24px;
-    flex-basis: calc((100%-24px)/2);
-}*/
+.solutions-text {
+}
 
 }
 
