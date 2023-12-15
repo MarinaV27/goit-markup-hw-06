@@ -520,6 +520,12 @@ display: block;
     display: none;
   }
 
-
-
+.title-three-portfolio{
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2; /* 120% */
+  
+}
+  
 }
