@@ -261,7 +261,7 @@ ul {
     background-size: cover;
     padding: 72px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/adaptiv/tel-bg.jpg);
-margin-bottom: 96px;
+
 }
 
 .main-title {
@@ -331,6 +331,109 @@ text-transform: none;
 screen and (min-resolution: 2dppx) and (min-width:768px),
 screen and (min-device-pixel-raito: 2) and (min-width:768px){
     .hero{
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/adaptiv/tel-bg@2x.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/adaptiv/tablet-bg@2x.jpg);
     } 
 }
+
+
+@media screen and (min-width: 1158px) {
+    .hero{
+        padding: 188px 0;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/adaptiv/people-office.jpg);
+
+    }
+
+}
+@media screen and (min-resolution: 192dpi) and (min-width:1158px),
+screen and (min-resolution: 2dppx) and (min-width:1158px),
+screen and (min-device-pixel-raito: 2) and (min-width:1158px){
+    .hero{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/adaptiv/bg@2x.jpg);
+    } 
+}
+
+/*=============== Mobil SOLUTION ===============*/
+
+
+
+    .solutions-icon {
+        display: none;
+    }
+    
+    .title-three-solution {
+        color: #2E2F42;
+    text-align: center;
+    
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11; /* 111.111% */
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        margin-bottom: 8px;
+    }
+    .descrition-solutions {
+        font-weight: 500;
+        line-height: 1.5; /* 150% */
+        margin-bottom: 72px;
+    }
+    .solutions {
+        padding: 96px 0 ;
+    }
+    
+    @media screen and (min-width: 768px) {
+       
+        .accomplishments {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 72px 24px;
+        }
+        .visually-hidden-list {
+            flex-basis: calc((100% - 24px) / 2);
+        }
+
+        .descrition-solutions{
+            margin-bottom: 0;
+        }
+        .solutions {
+            padding-bottom: 96px;
+        }
+    }
+    @media screen and (min-width: 1158px) {
+
+        .accomplishments {          
+            flex-wrap: nowrap;
+            gap: 24px;
+
+        } 
+        .solutions {
+            padding: 120px 0;
+        }
+
+        .title-three-solution{
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.2;
+            text-align: start;
+        }
+
+        .descrition-solutions{
+            font-weight: 400;
+        }
+        .solutions-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 264px;
+            height: 112px;
+            border-radius: 4px;
+            border: 1px solid #8E8F99;
+            background-color: #F4F4FD;
+            padding: 24px 100px;
+            margin-bottom: 8px;
+        }
+        .solution-list-icon {
+            display: block;
+        }
+
+
+    }
