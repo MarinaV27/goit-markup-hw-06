@@ -859,13 +859,15 @@ color:#434455;
     .descrition-footer {
         width: 264px;
     }
-
-   
-
-    
-    
+ 
     }
 
-    
+    @media screen and (min-width:1158px) {
+
+        .footer-container {
+            justify-content: space-between;
+            padding-left: 0;
+        }
+    }
 
  
