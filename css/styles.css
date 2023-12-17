@@ -1162,3 +1162,27 @@ color: #434455;
     width: 24px;
     height: 24px;  
 }
+.mobile-menu-wropper {
+    padding: 72px 24px 40px 16px;
+    display: flex;
+    flex-direction: column;
+}
+.backdrop-mobile-box {
+   margin-top: auto;
+}
+.mobile-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.mobile-menu-info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 48px;
+}
+.mobile-menu-social-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
