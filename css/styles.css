@@ -271,10 +271,11 @@ ul {
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    padding-bottom: 72px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
     text-transform: capitalize;
-    max-width: 288px;
+    max-width: 217px;
 }
 
 .button-hero {
